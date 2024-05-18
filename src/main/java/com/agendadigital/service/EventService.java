@@ -1,7 +1,7 @@
 package com.agendadigital.service;
 
-import com.example.agendadigital.dto.EventDTO;
-import com.example.agendadigital.model.Event;
+import com.agendadigital.dto.EventDTO;
+import jdk.jfr.Event;
 
 import java.util.List;
 
