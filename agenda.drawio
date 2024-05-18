@@ -1,0 +1,226 @@
+<mxfile host="Electron" modified="2024-05-18T15:23:53.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="hS6Ldq5zyF7tdCSxQLNS" version="24.4.0" type="device" pages="4">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="C 1">
+    <mxGraphModel dx="990" dy="3860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hPj-pynFYlD7j1zK2Ikd-0" target="oDfP1RyyDIt77YWQnxmi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPj-pynFYlD7j1zK2Ikd-0" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="96.5" y="275" width="200" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="hPj-pynFYlD7j1zK2Ikd-3" value="&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Interações Principais&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Usuário -&amp;gt; Agenda Digital System: O usuário acessa o sistema através de um navegador web para realizar operações como login, visualização, criação, edição e exclusão de eventos.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Agenda Digital System -&amp;gt; Provedor de Autenticação: O sistema de agenda digital redireciona o usuário para o provedor de autenticação para login.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Agenda Digital System -&amp;gt; Sistema de Notificações: O sistema envia notificações de eventos ao sistema de notificações, que entrega as notificações aos usuários.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Agenda Digital System -&amp;gt; Banco de Dados: O sistema interage com o banco de dados para armazenar e recuperar informações sobre usuários e eventos.&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="400" y="850" width="400" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-0" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Provedor de Autenticaçao&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;(Google)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="463" y="287" width="307" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oDfP1RyyDIt77YWQnxmi-4" target="oDfP1RyyDIt77YWQnxmi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oDfP1RyyDIt77YWQnxmi-4" target="oDfP1RyyDIt77YWQnxmi-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Sistema de Notificaçoes&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;(E-mail Service)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="463" y="587" width="307" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oDfP1RyyDIt77YWQnxmi-5" target="oDfP1RyyDIt77YWQnxmi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Agenda Digital System&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="43" y="587" width="307" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oDfP1RyyDIt77YWQnxmi-6" target="oDfP1RyyDIt77YWQnxmi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;PostgreSQL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="43" y="887" width="307" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oDfP1RyyDIt77YWQnxmi-12" value="&lt;h4 style=&quot;text-align: justify; border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin: 1rem 0px 0.5rem; line-height: 1.5; background-color: rgb(33, 33, 33); font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#ececec&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Descrição dos Elementos&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;* Usuário: Utiliza a interface web para interagir com o sistema, criar e gerenciar eventos.&lt;br&gt;* Agenda Digital System: Aplicação web que fornece as funcionalidades de gerenciamento de &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;eventos. Consiste em um front-end (React) e um back-end (Java com Spring Boot).&lt;br&gt;* Provedor de Autenticação: Serviço externo usado para autenticar usuários via OAuth2.&lt;br&gt;* Sistema de Notificações: Serviço externo que envia notificações (como emails) aos usuários.&lt;br&gt;* Banco de Dados (PostgreSQL): Armazena dados dos usuários e eventos.&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="39" width="630" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SmStT-8qDSVQY1CBa2cG" name="C 2">
+    <mxGraphModel dx="1191" dy="2140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-2" value="Front end Application (React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1195" width="501" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-5" value="Banco de Dados&lt;br&gt;(PostgreSQL)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451" y="1776" width="339" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1205" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-7" value="Provedor &#xa;de &#xa;Autenticaçao&#xa;(OAuth)&#xa;&#xa;(GOOGLE)" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1800" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="603" y="1846" width="33" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-8" value="Sistema de Notificaçao" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="501" y="2010" width="259" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-11" value="Interface do Usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1230" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-12" value="Autenticaçao" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1220" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-13" value="Gerenciamento&amp;nbsp;&lt;div&gt;de Eventos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1336" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-16" value="Back end Application (React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1455" width="510" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-14" value="Comunicaçao com o Back-End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1333" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-17" value="Controladores REST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1480" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-18" value="Serviços" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1557.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-19" value="Repositorios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1557.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-20" value="Segurança (JWT, OAuth)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1480" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-21" value="Interaçao com DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1633" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-22" value="Comunicaçao com &lt;br&gt;Servidores Externos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1633" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-23" value="Armazenamento de dados do usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="1867.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-24" value="Armazenamento de eventos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="681" y="1867.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-26" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.simple_email_service;" vertex="1" parent="1">
+          <mxGeometry x="514" y="2018" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-27" value="Serviço de envio de e-mails" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2117.5" width="208" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; text-align: justify; text-wrap: nowrap;&quot;&gt;Descrição dos Contêineres&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Usuário (Navegador):&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Interface com a qual o usuário interage.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Envia requisições HTTP para o front-end.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Front-end Application (React):&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Responsável pela interface de usuário.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Realiza autenticação e autorização do usuário.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Permite ao usuário gerenciar eventos (criar,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;editar, visualizar, excluir).&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Comunica-se com o back-end através de&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;requisições HTTP (REST API).&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Back-end Application (Spring Boot):&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Controladores REST que recebem as&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;requisições HTTP do front-end.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Serviços que contêm a lógica de negócios.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Repositórios que interagem com o banco de&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;dados.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Módulo de segurança que implementa JWT&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;para autenticação e autorização.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Comunica-se com serviços externos para&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;autenticação e notificações.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Banco de Dados (PostgreSQL):&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Armazena dados persistentes, como&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;informações dos usuários e eventos.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Interage com o back-end para operações&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;de CRUD.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Provedores de Autenticação (OAuth):&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Serviços externos como Google e Facebook.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Autentica usuários e retorna tokens de acesso.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Sistema de Notificações:&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Serviço externo responsável por enviar&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;notificações (como emails) para os usuários.&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;Comunica-se com o back-end para enviar&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; text-align: justify;&quot;&gt;notificações baseadas em eventos do usuário.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1310" width="260" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="hvo0ve9utSqkbFwQ-do3-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Interações Principais&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Usuário -&amp;gt; Front-end Application: O usuário interage com a aplicação através do navegador.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Front-end Application -&amp;gt; Back-end Application: O front-end envia requisições para o back-end para operações como login, gerenciamento de eventos, etc.&lt;/p&gt;&lt;p&gt;Back-end Application -&amp;gt; Banco de Dados: O back-end executa operações de leitura/escrita no banco de dados.&lt;/p&gt;&lt;p&gt;Back-end Application -&amp;gt; Provedores de Autenticação: Para autenticar o usuário, o back-end interage com os provedores de autenticação.&lt;/p&gt;&lt;p&gt;Back-end Application -&amp;gt; Sistema de Notificações: Para enviar notificações aos usuários, o back-end comunica-se com o sistema de notificações.&lt;/p&gt;&lt;p&gt;Esse diagrama de contêiner detalha como os diferentes componentes do sistema se comunicam e interagem, fornecendo uma visão clara da arquitetura geral da aplicação de agenda digital.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2000" width="460" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o9196z74sJfMk5_G0APS" name="C 3">
+    <mxGraphModel dx="1390" dy="3860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-46" value="Back-end Application (Spring Boot)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry width="820" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-3" value="Controllers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-4" value="AuthController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-5" value="EventController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-6" value="User&lt;span style=&quot;background-color: initial;&quot;&gt;Controller&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-7" value="Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-8" value="AuthService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-9" value="EventService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-10" value="UserService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-11" value="Repositories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="202" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-13" value="EventRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="222" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-14" value="UserRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="302" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-15" value="|" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="211" width="250" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-16" value="JwtAuthenticationEntryPoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="231" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-19" value="JwtRequestFilter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-20" value="JwtTokenUtil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="361" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-21" value="WebSecurityConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="421" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-22" value="Config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="400" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-23" value="DatabaseConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-24" value="Exception" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="512" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-25" value="CustomException" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="532" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-26" value="GlobalExceptionHndler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="612" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-27" value="DTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="587" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-28" value="EventDTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="607" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-29" value="UserDTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="687" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-30" value="Utilities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="717" width="143.44" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-31" value="EmailService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="737" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-48" value="&lt;p&gt;Descrição dos Componentes&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal; font-size: 12px;&quot;&gt;* Controllers&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- AuthController: Gerencia as requisições&lt;br&gt;&amp;nbsp;de autenticação (login, registro).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- EventController: Gerencia as requisições &lt;br&gt;relacionadas a eventos (criação, edição,&lt;br&gt;&amp;nbsp;visualização, exclusão).&lt;/p&gt;&lt;p&gt;- UserController: Gerencia as requisições &lt;br&gt;relacionadas aos usuários (perfil do usuário, atualizações).&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Services&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- AuthService: Contém a lógica de negócios &lt;br&gt;para autenticação e autorização.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- EventService: Contém a lógica de negócios &lt;br&gt;para gerenciamento de eventos.&lt;/p&gt;&lt;p&gt;- UserService: Contém a lógica de negócios &lt;br&gt;para gerenciamento de usuários.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Repositories&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- EventRepository: Interface que estende JpaRepository &lt;br&gt;para operações CRUD relacionadas a eventos.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- UserRepository: Interface que estende JpaRepository &lt;br&gt;para operações CRUD relacionadas a usuários.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Security&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- JwtAuthenticationEntryPoint: Lida com &lt;br&gt;erros de autenticação.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- JwtRequestFilter: Filtra requisições HTTP para&lt;br&gt;verificar tokens JWT.&lt;/p&gt;&lt;p&gt;- JwtTokenUtil: Utilitário para gerar e validar tokens JWT.&lt;/p&gt;&lt;p&gt;- WebSecurityConfig: Configurações de segurança &lt;br&gt;para a aplicação Spring.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Config&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-DatabaseConfig: Configurações específicas para &lt;br&gt;a conexão com o banco de dados.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Exception&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-CustomException: Exceções personalizadas para &lt;br&gt;a aplicação.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- GlobalExceptionHandler: Lida com exceções globais &lt;br&gt;e fornece respostas apropriadas.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* DTO (Data Transfer Object)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- EventDTO: Objeto de transferência de dados para eventos.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- UserDTO: Objeto de transferência de dados para usuários.&lt;/p&gt;&lt;p&gt;* Utilities&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- EmailService: Serviço para enviar emails (por exemplo, notificações).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="290" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="X2xK6Zjy_WcY5lJOQyy9-50" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Interações Principais entre Componentes&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;AuthController -&amp;gt; AuthService: Para autenticação &lt;br&gt;e autorização do usuário.&lt;/p&gt;&lt;p&gt;EventController -&amp;gt; EventService: Para gerenciar &lt;br&gt;eventos (criar, editar, visualizar, excluir).&lt;/p&gt;&lt;p&gt;UserController -&amp;gt; UserService: Para gerenciar informações do usuário (perfil, atualizações).&lt;/p&gt;&lt;p&gt;AuthService -&amp;gt; UserRepository: Para verificar e salvar dados do usuário durante a autenticação.&lt;/p&gt;&lt;p&gt;EventService -&amp;gt; EventRepository: Para operações CRUD de eventos.&lt;/p&gt;&lt;p&gt;UserService -&amp;gt; UserRepository: Para operações CRUD de usuários.&lt;/p&gt;&lt;p&gt;JwtRequestFilter -&amp;gt; JwtTokenUtil: Para validar tokens JWT em requisições HTTP.&lt;/p&gt;&lt;p&gt;Back-end Application -&amp;gt; DatabaseConfig: Para configurar e conectar ao banco de dados.&lt;/p&gt;&lt;p&gt;Back-end Application -&amp;gt; GlobalExceptionHandler: Para lidar com exceções de forma centralizada.&lt;/p&gt;&lt;p&gt;Back-end Application -&amp;gt; EmailService: Para enviar notificações por email.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="750" width="460" height="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="33FPBmbiQN-FgKLXxkFy" name="C 4">
+    <mxGraphModel dx="981" dy="2725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
